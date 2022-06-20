@@ -5,7 +5,7 @@ My NeoVim config files written in Lua. It has many of the features that are comm
 </p>
 
 <p>
-Code written with reference to chris@machines fantastic YouYube video series covering how to set up a NeoVim lua config from scratch:
+Code written with reference to chris@machines fantastic YouYube video series covering how to set up a NeoVim lua config from scratch:<br>
 **Neovim IDE from Scratch - Introduction (100% lua config)**<br>
 https://www.youtube.com/watch?v=ctH-a-1eUME&list=PLhoH5vyxr6Qq41NFL4GvhFp-WLd5xzIzZ&index=1
 </p>
