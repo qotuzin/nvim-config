@@ -6,11 +6,11 @@ My NeoVim config files written in Lua. It has many of the features that are comm
 
 <p>
 Code written with reference to chris@machines fantastic YouYube video series covering how to set up a NeoVim lua config from scratch:
-Neovim IDE from Scratch - Introduction (100% lua config)
+Neovim IDE from Scratch - Introduction (100% lua config)  
 https://www.youtube.com/watch?v=ctH-a-1eUME&list=PLhoH5vyxr6Qq41NFL4GvhFp-WLd5xzIzZ&index=1
 </p>
 
 <p>
-His code can be found at the following github page:
+His code can be found at the following github page:  
 https://github.com/LunarVim/Neovim-from-scratch/tree/master
 </p>
