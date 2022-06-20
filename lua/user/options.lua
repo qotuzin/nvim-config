@@ -1,0 +1,24 @@
+-- :help options
+vim.opt.autoindent = true
+vim.opt.backup = false
+vim.opt.clipboard = "unnamedplus"
+vim.opt.cmdheight = 2
+vim.opt.expandtab = true
+vim.opt.mouse = "a"
+vim.opt.hidden = true
+vim.opt.hlsearch = false
+vim.opt.wrap = false
+vim.opt.number = true
+vim.opt.relativenumber = true
+vim.opt.signcolumn = "yes"
+-- vim.opt.shifttabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.showtabline = 2
+vim.opt.showcmd = true
+vim.opt.scrolloff = 8
+vim.opt.smartindent = true
+vim.opt.smarttab = true
+vim.opt.swapfile = false
+vim.opt.termguicolors = true
+vim.opt.tabstop = 4
+vim.opt.undofile = true
