@@ -124,6 +124,11 @@ _G.packer_plugins = {
     path = "/home/qotuzin/.local/share/nvim/site/pack/packer/start/colorschemes",
     url = "https://github.com/Lunarvim/colorschemes"
   },
+  ["echodoc.vim"] = {
+    loaded = true,
+    path = "/home/qotuzin/.local/share/nvim/site/pack/packer/start/echodoc.vim",
+    url = "https://github.com/Shougo/echodoc.vim"
+  },
   ["everybody-wants-that-line.nvim"] = {
     loaded = true,
     path = "/home/qotuzin/.local/share/nvim/site/pack/packer/start/everybody-wants-that-line.nvim",
@@ -138,6 +143,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/qotuzin/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
+  ["jaq-nvim"] = {
+    loaded = true,
+    path = "/home/qotuzin/.local/share/nvim/site/pack/packer/start/jaq-nvim",
+    url = "https://github.com/is0n/jaq-nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,

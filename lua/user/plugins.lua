@@ -107,6 +107,12 @@ return packer.startup(function(use)
     -- Git integration and support
     use 'lewis6991/gitsigns.nvim'
 
+    -- Code running and building
+    use 'is0n/jaq-nvim'
+
+    -- Echodoc - function parameter completion
+    use 'Shougo/echodoc.vim'
+
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
     if PACKER_BOOTSTRAP then
