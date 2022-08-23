@@ -50,7 +50,6 @@ return packer.startup(function(use)
     use 'Lunarvim/colorschemes'
     use 'Shadorain/shadotheme'
     use 'Mofiqul/vscode.nvim'
-    use 'mcchrish/zenbones.nvim'
 
     -- cmp plugins - autocompletion
     use 'hrsh7th/nvim-cmp' -- The completion plugin
@@ -72,6 +71,9 @@ return packer.startup(function(use)
     -- Telescope - fuzzfy finder
     use 'nvim-telescope/telescope.nvim'
     use 'nvim-telescope/telescope-media-files.nvim'
+
+    -- Vs Tasks - Automated Building
+    use 'EthanJWright/vs-tasks.nvim'
 
     -- File explorer
     use 'kyazdani42/nvim-tree.lua'

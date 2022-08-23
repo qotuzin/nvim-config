@@ -15,13 +15,12 @@ local tree_cb = nvim_tree_config.nvim_tree_callback
 nvim_tree.setup({
     sort_by = 'case_sensitive',
     hijack_cursor = true,
-    update_to_buf_dir = {
-        enable = true,
-        auto_open = true,
-    },
+    -- update_to_buf_dir = {
+    --     enable = true,
+    --     auto_open = true,
+    -- },
     view = {
         adaptive_size = true,
-        auto_resize = true,
         hide_root_folder = false,
         mappings = {
             list = {

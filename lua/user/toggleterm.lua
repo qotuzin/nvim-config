@@ -19,10 +19,10 @@ toggleterm.setup({
     float_opts = {
         border = 'curved',
         winblend = 0,
-        highlights = {
-            bordey = 'Normal',
-            background = 'Normal'
-        },
+        -- highlights = {
+        --     bordey = 'Normal',
+        --     background = 'Normal'
+        -- },
     },
 })
 

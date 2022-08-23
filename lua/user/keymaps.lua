@@ -55,6 +55,7 @@ keymap("v", "p", '"_dP', opts)
 -- Telescope --
 keymap('n', '<leader>f', '<cmd>Telescope find_files<CR>', opts)
 keymap('n', '<leader>g', '<cmd>Telescope live_grep<CR>', opts)
+keymap('n', '<leader>c', '<cmd>Telescope colorscheme<CR>', opts)
 
 -- Bufferline --
 keymap('n', '<C-x>', '<cmd>Bdelete<CR>', opts)
@@ -63,3 +64,8 @@ keymap('n', '<C-x>', '<cmd>Bdelete<CR>', opts)
 keymap('n', '|', '<cmd>ToggleTerm direction=float<CR>', opts)
 keymap('n', '~', '<cmd>ToggleTerm direction=horizontal<CR>', opts)
 keymap('n', '<a-|>', '<cmd>ToggleTerm direction=tab<CR>', opts)
+
+-- VS Tasks --
+keymap('n', '<leader>ta', '<cmd>lua require("telescope").extensions.vstasks.task()<CR>', opts)
+keymap('n', '<leader>ti', '<cmd>lua require("telescope").extensions.vstasks.inputs()<CR>', opts)
+keymap('n', '<leader>tt', '<cmd>lua require("telescope").extensions.vstasks.close()<CR>', opts)

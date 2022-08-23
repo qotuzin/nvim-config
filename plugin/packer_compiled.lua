@@ -224,15 +224,15 @@ _G.packer_plugins = {
     path = "/home/qotuzin/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
   },
+  ["vs-tasks.nvim"] = {
+    loaded = true,
+    path = "/home/qotuzin/.local/share/nvim/site/pack/packer/start/vs-tasks.nvim",
+    url = "https://github.com/EthanJWright/vs-tasks.nvim"
+  },
   ["vscode.nvim"] = {
     loaded = true,
     path = "/home/qotuzin/.local/share/nvim/site/pack/packer/start/vscode.nvim",
     url = "https://github.com/Mofiqul/vscode.nvim"
-  },
-  ["zenbones.nvim"] = {
-    loaded = true,
-    path = "/home/qotuzin/.local/share/nvim/site/pack/packer/start/zenbones.nvim",
-    url = "https://github.com/mcchrish/zenbones.nvim"
   }
 }
 
